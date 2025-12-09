@@ -57,7 +57,7 @@ public class JwtUtilService {
             Jwts.parserBuilder().setSigningKey(signingKey()).build().parseClaimsJws(token);
             return true;
         } catch (ExpiredJwtException e) {
-            System.out.println("⚠ token expired : " + e.getMessage());
+            System.out.println("⚠ token expired : " + e.getMessage());  //만료:401
             return false;
         } catch (JwtException e) {
             System.out.println("🎯 토큰 위조/형식 오류: " + e.getMessage());

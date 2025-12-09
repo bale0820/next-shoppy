@@ -60,4 +60,17 @@ logging:
 # JWT 기본키 등록
 # Base64 키 생성시 명령어 => 터미널> openssl rand -base64 32
 jwt:
-  secret: "RndmS2V5MkBNa1N1cGVyU2VjcmV0S2V5MTIzNDU2Nzg5MA=="
+  secret: "Mott8KRlncJSesH9FpjqQnMW4tt+13mFp/jQVZDD/gA="
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -165,7 +165,7 @@ public class AuthenticationController {
         ResponseCookie deleteRefreshCookie = ResponseCookie.from("refreshToken", "")
                 .httpOnly(true)
                 .path("/")
-                .maxAge(0)
+                .maxAge(0)  //쿠키 유효시간 0: 즉시 삭제
                 //.sameSite("None")
                 //.secure(false)
                 .build();
